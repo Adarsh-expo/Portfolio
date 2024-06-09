@@ -13,7 +13,7 @@ margin-right: auto;
 .project2{
     background-color: rgba(212, 212, 216,0.2);
 
-height: 40vh;
+min-height: 40vh;
 display: flex;
 border-radius: 0.5rem;
 flex-direction: column;
