@@ -1,6 +1,6 @@
 .navbar{
     display:flex;
-  position: fixed;
+  position:fixed;
     width:100vw;
     height: 8rem;
     background: rgb(1,0,1);
@@ -11,16 +11,18 @@
    
     padding: 0 2rem;
     top: 0;
+    
   
     
 }
 .portlogo{
 
     height: 13rem;
-    width: 15rem;
+    width: 9rem;
     object-fit: cover;
     border-radius: 80%;
     z-index: 1;
+   
 }
 .laptopmenuimg{
     height: 2vh;
@@ -60,4 +62,26 @@ font-weight: 300;
     object-fit: cover;
     
    
+}
+.burger{
+    color:aliceblue;
+    border-width: 0;
+    z-index:4;
+    font-size: larger;
+}
+.menu{
+    position: absolute;
+    top:8.1rem;
+    width: 84vw;
+   border-color: #dee2e6;
+   font-weight: 600;
+  background-color: rgb(1,0,1,0.8);
+  border-radius: 1rem;
+  right: 50%;
+left: 8%;
+  transition:all 0.9s;
+  border-width: 5px;
+
+    
+
 }
