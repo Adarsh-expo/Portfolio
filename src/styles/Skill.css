@@ -1,0 +1,50 @@
+.skill{
+
+
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 4rem;
+}
+.skillvalue{
+background-color: rgba(212, 212, 216,0.2);
+
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 300;
+padding: 2.5rem 1rem;
+border-radius: 4px;
+height: 11vh;
+
+width:45vw ;
+display: flex;
+align-items: center;
+gap: 2rem;
+
+}
+.about{
+
+font-size: 2.1rem;
+margin-bottom: 2rem;
+font-weight: 300;
+
+}
+.para{
+   margin-bottom: 3rem;
+   font-size: 1rem;
+   text-align: center;
+}
+.img{
+    height: 4rem;
+    width: 6rem;
+    object-fit: cover;
+   border-radius: 3px;
+}
+@media screen and (max-width:470px) {
+    .skillvalue{
+
+       width: 60vw;
+    }
+}

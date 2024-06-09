@@ -1,0 +1,51 @@
+.tech{
+    display:flex;
+    flex-direction: column;
+  
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+    }
+  
+    .tech2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .techimg{
+       
+       height: 3rem;
+       width: 4rem;
+    }
+    .techeading{
+
+        font-size: 2.1rem;
+        margin-bottom: 2rem;
+        font-weight: 300;  
+    }
+    .techeach{
+        background-color: rgba(212, 212, 216,0.2);
+
+font-size: 1.2rem;
+margin-bottom: 1rem;
+font-weight: 300;
+padding: 2.5rem 1rem;
+border-radius: 4px;
+height: 11vh;
+
+width:40vw ;
+display: flex;
+align-items: center;
+gap: 2rem;
+
+
+    }
+    @media screen and (max-width:520px){
+        .techeach{
+
+            width:60vw;
+        }
+    }
