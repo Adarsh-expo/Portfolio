@@ -13,8 +13,11 @@ const[showmenu,setmenu]=useState(false);
  
 window.addEventListener('resize',()=>{
 setscreen(window.innerWidth<766?true:false)
-
+if(window.innerWidth>766){
+  setmenu(false)
+}
 })
+
 
   const options = {
     // Your options here, for example:
