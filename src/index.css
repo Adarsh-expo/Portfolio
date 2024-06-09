@@ -12,5 +12,5 @@ body{
   background:rgb(1,0,1);
   overflow-y: auto;
   color: white;
-
+ overflow-x: hidden;
 }
