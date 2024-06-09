@@ -40,7 +40,7 @@ screen ?<div><button onClick={()=>{setmenu((pre)=>!pre)}} className='burger'><i 
 <Link  onClick={()=>{reachhome(50)}}   className='Listitem'>Home</Link>
 <Link  onClick={()=>{reachhome(570)}}  className='Listitem'>About</Link>
 <Link  onClick={()=>{reachhome(1010)}}   to='portfolio'  className='Listitem'>Portfolio</Link>
-<Link to='/clients' className='Listitem'>Clients</Link>
+<Link  onClick={()=>{reachhome(1700)}}          to='/clients' className='Listitem'>Project</Link>
 </div>
 
 
@@ -54,7 +54,7 @@ screen ?<div><button onClick={()=>{setmenu((pre)=>!pre)}} className='burger'><i 
         showmenu&&<div className='menu'><Link  onClick={()=>{reachhome(50)}}   className='Listitem'>Home</Link>
 <Link  onClick={()=>{reachhome(570)}}  className='Listitem'>About</Link>
 <Link  onClick={()=>{reachhome(1010)}}   to='portfolio'  className='Listitem'>Portfolio</Link>
-<Link to='/clients' className='Listitem'>Clients</Link></div>
+<Link to='/clients' className='Listitem'>Project</Link></div>
       }
       
     </div></>

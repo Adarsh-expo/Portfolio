@@ -1,0 +1,41 @@
+.project1{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 12rem;
+gap:3rem;
+width: 60vw;
+margin-left: auto;
+margin-right: auto;
+}
+.project2{
+    background-color: rgba(212, 212, 216,0.2);
+
+height: 40vh;
+display: flex;
+border-radius: 0.5rem;
+flex-direction: column;
+align-items: center;
+padding: 2rem 1rem;
+gap:2rem;
+}
+.pro{
+    font-size: 2.1rem;
+    margin-bottom: 2rem;
+    font-weight: 300;  
+
+}
+.pro2{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 200;  
+}
+ .Link1:hover{
+    color: black;
+}
+.Link1{
+    font-size: 1rem;
+    font-weight: 200;
+}
