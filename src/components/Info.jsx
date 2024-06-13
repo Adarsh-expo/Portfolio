@@ -9,7 +9,7 @@ function Info() {
    <section  name='info' className='section'><div className='divmain'><div className='divmain1'>Hello,</div>
    <div className='divmain2'>I'm <span className='span'>Adarsh  Upadhyay</span>
    </div>
-   <div className='divmain2'>
+   <div className='divmain2'>                                                                                              
     
      a Web App Developer
     

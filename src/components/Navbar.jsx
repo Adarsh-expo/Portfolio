@@ -19,13 +19,12 @@ if(window.innerWidth>766){
 })
 
 
-  const options = {
-    // Your options here, for example:
-    duration: 500,
-    smooth: true,
-  };
+  
 function reachhome(pxo) {
-  scroll.scrollTo(pxo, options);
+  document.getElementById(`${pxo}`).scrollIntoView({
+    behavior: 'smooth'
+   
+  });
 }
   return (<>
     
@@ -37,24 +36,25 @@ function reachhome(pxo) {
 screen ?<div><button onClick={()=>{setmenu((pre)=>!pre)}} className='burger'><i class="ri-menu-fill "></i></button></div>:
 <div className='laptopmenu'>
 
-<Link  onClick={()=>{reachhome(50)}}   className='Listitem'>Home</Link>
-<Link  onClick={()=>{reachhome(570)}}  className='Listitem'>About</Link>
-<Link  onClick={()=>{reachhome(1010)}}   to='portfolio'  className='Listitem'>Portfolio</Link>
-<Link  onClick={()=>{reachhome(1700)}}          to='/clients' className='Listitem'>Project</Link>
+<Link  activeClass='active' to='info' spy={true}  smooth={true} duration={800} offset={-250} className='Listitem'>Home</Link>
+<Link   activeClass='active' to='about' spy={true} smooth={true} duration={800} offset={-150} className='Listitem'>About</Link>
+<Link  activeClass='active'  to='portfolio' spy={true} smooth={true}  duration={800} offset={-270} className='Listitem'>Portfolio</Link>
+<Link  activeClass='active' to='project' spy={true} smooth={true } duration={800} offset={-150}  className='Listitem'>Project</Link>
 </div>
 
 
 }
      
-      <button   className='laptopmenubtn'>
+      <button  onClick={()=>{reachhome('abc')}}  className='laptopmenubtn'>
         <img  src={contact} alt='Contact Icon' className='laptopmenuimg'/>Contact Me
       </button>
 
       {
-        showmenu&&<div className='menu'><Link  onClick={()=>{reachhome(50)}}   className='Listitem'>Home</Link>
-<Link  onClick={()=>{reachhome(570)}}  className='Listitem'>About</Link>
-<Link  onClick={()=>{reachhome(1010)}}   to='portfolio'  className='Listitem'>Portfolio</Link>
-<Link to='/clients' className='Listitem'>Project</Link></div>
+        showmenu&&<div className='menu'>
+<Link activeClass='active' to='info' spy={true}  smooth={true} duration={800} offset={-250} className='Listitem'>Home</Link>
+<Link  activeClass='active' to='about' spy={true} smooth={true} duration={800} offset={-150} className='Listitem'>About</Link>
+<Link  activeClass='active'  to='portfolio' spy={true} smooth={true}  duration={800} offset={-270}     className='Listitem'>Portfolio</Link>
+<Link   activeClass='active' to='project' spy={true} smooth={true } duration={800} offset={-150}           className='Listitem'>Project</Link></div>
       }
       
     </div></>

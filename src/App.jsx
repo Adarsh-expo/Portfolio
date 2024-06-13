@@ -5,6 +5,7 @@ import Skill from './components/Skill'
 import Portfolio from './components/Portfolio'
 import { useRef } from 'react';
 import Project from './components/Project'
+import Contact from './components/Contact'
 function App() {
   const [count, setCount] = useState(0)
   const section1=useRef();
@@ -22,6 +23,7 @@ function App() {
   <Skill   section2={section2} />
   <Portfolio/>
   <Project/>
+  <Contact/>
   </div>
     
       

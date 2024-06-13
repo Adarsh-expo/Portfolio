@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/Project.css'
 function Project() {
   return (
-    <div className='project1'>
+    <div  name='project'    className='project1'>
         
         
         <span className='pro'>Projects</span>
